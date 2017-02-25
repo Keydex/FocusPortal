@@ -1,24 +1,54 @@
 input[type="text"] {
     display: block;
     border: none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     background: transparent;
     margin: 0 auto;
     text-align: center;
+    text-shadow: 2px 2px #ff0000;
 }
 
-.center{
-  text-align: center;
+#bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: 0;
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.text-area{
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h1{
+  font-size: 300%;
 }
 
 textarea:focus, input:focus{
     outline: none;
+    color: white;
 }
 
-.initial {
-  margin-top: 20%;
+initial {
+  position: center;
 }
 
-.pad5 {
+/*.pad5 {
   margin-top: 5%;
-}
+}*/
