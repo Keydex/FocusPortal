@@ -14,9 +14,14 @@
 	</ol>
 	<div id="mongo"></div>	
 	<p>Test</p>
-	<form>
-	  <input type="text" name="code"></input>
-	</form>
+	<div class="input-group">
+	  <form method="post">{% csrf_token %}
+	  <input type="text" class="form-control" placeholder="Title" name="title" aria-describedby="basic-addon2">
+	  <input type="text" class="form-control" placeholder="Code" name="code" aria-describedby="basic-addon2">
+	  <input type="submit" ></input>
+	  <!--<span class="input-group-addon" id="basic-addon2">@example.com</span>-->
+	  </form>
+	</div>
       </div>
 
       <nav aria-label="Page navigation">
