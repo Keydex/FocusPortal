@@ -12,3 +12,9 @@ class Post(Document):
     title = StringField(max_length=120, required=True)
     tag = ListField(StringField(max_length=30))
     code = StringField()
+
+class Code(Document):
+    site = StringField()
+    title = StringField(max_length=120)
+    category = StringField(max_length=30)
+    code = StringField()
