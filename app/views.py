@@ -9,8 +9,7 @@ def index(request):
                 tit = request.POST.get('title')
                 post = Post(title=tit, tag=t, code=q)
                 post.save()
-        content = ""
-        #content = {"python": Code.objects.get(category="python"), "java":Code.objects.get(category="java"), "C":Code.objects.get(category="c")};
+        content = {"python": Code.objects.get(category="python"), "java":Code.objects.get(category="java"), "C":Code.objects.get(category="c")};
         return render(request, "index.html", content)
 
 def login(request):
