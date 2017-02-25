@@ -1,0 +1,9 @@
+input[type="text"]{
+	display: block;
+	margin: 0 auto;
+	border-top: none !important;
+	border-right: none;
+	border-left: none;
+	border-bottom: thick double red;
+	background: transparent;
+}
