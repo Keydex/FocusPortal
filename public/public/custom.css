@@ -1,0 +1,24 @@
+input[type="text"] {
+    display: block;
+    border: none;
+    border-bottom: 3px solid black;
+    background: transparent;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.initial {
+  margin-top: 20%;
+}
+
+.pad5 {
+  margin-top: 5%;
+}
