@@ -5,7 +5,7 @@ input[type="text"] {
     background: transparent;
     margin: 0 auto;
     text-align: center;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #000000;
 }
 
 #bg {
@@ -23,8 +23,9 @@ input[type="text"] {
 }
 
 body{
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 2px 2px #ff0000;
+  /*font-family: 'Roboto Slab', serif;*/
+  text-shadow: 2px 2px #000000;
+  color: white;
 }
 
 .text-area{
@@ -33,11 +34,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px #000000;
 }
 
 h1{
   font-size: 300%;
+  color: white;
 }
 
 textarea:focus, input:focus{
@@ -47,6 +49,10 @@ textarea:focus, input:focus{
 
 .initial {
   margin-top: 30%;
+}
+
+.blackBTN {
+  color: #000000;
 }
 
 .pad5 {
