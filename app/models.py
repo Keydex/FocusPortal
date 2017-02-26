@@ -1,27 +1,22 @@
 from __future__ import unicode_literals
+import datetime
 from mongoengine import *
 connect('portal')
 from django.db import models
+from django import forms
+from django.core.urlresolvers import reverse
 
-class User(Document):
-    id = IntegerField();
-    email = StringField(required=True)
-    first_name = StringField(max_length=50)
-    last_name = StringField(max_length=50)
+class CategoryField(models.CharField):
+    def to_python(self, value):
+        return value.lower()
 
-class Code(Document):
-    id = IntegerField();
-    date = DateField(auto=True)
-    title = StringField(max_length=120, required=True)
-    site = URLField(max_length=200)
-    tag = StringField(max_length=30)
-    code = StringField()
-
-class Code(Document):
-    site = StringField()
-    title = StringField(max_length=120)
-    category = StringField(max_length=30)
-    code = StringField()
+class Post(models.Model):
+    id = models.CharField(max_length=100, primary_key=True)
+    title = models.CharField(max_length=100)
+    url = models.URLField()
+    code = models.FileField(upload_to="snippets/")
+    date = models.DateTimeField(auto_now=True)
+    category = CategoryField(max_length=30)
 
     def get_absolute_url(self):
         return reverse("homepage")

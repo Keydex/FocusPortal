@@ -1,30 +1,55 @@
 {% extends 'base.html' %}
+{% block static %}
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-messaging.js"></script>
+
+    <script src="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.css" />
+    <script type="text/javascript">
+      // FirebaseUI config.
+      var uiConfig = {
+      signInSuccessUrl: 'index.html',
+	signInOptions: [
+	// Leave the lines as is for the providers you want to offer your users.
+	firebase.auth.EmailAuthProvider.PROVIDER_ID
+	],
+	// Terms of service url.
+	tosUrl: 'term_of_service.html'
+	  };
+
+	  // Initialize the FirebaseUI Widget using Firebase.
+	  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+	  // The start method will wait until the DOM is loaded.
+	  ui.start('#firebaseui-auth-container', uiConfig);
+    </script>
+{% endblock %}
+
 {% block title %}Login{% endblock %}
 
 {% block content %}
-<div id="content-container" class="container p-none">
-  <div class="lgn-container col-lg-8">
-    <form id="login-form" method="post" action="{% url 'django.contrib.auth.views.login' %}">
-      {% csrf_token %}
-      <table class="table">
-	<tr>
-	  <td><label for="id_username">Username</label></td>
-	  <td><input id="id_username" name="username" type="text" class="form-control"></td>
-	</tr>
-	<tr>
-	  <td><label for="id_password">Password</label></td>
-	  <td><input id="id_password" name="password" type="password" class="form-control"></td>
-	</tr>
-      </table>
-      {% if form.errors %}
-      <p class=" label label-danger">
-	Your username and password didn't match. lease try again.
-      </p>
-      {% endif %}
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDFZ-crjVTYmYPmiCIVhTh2V_kLEJ09Dc0",
+    authDomain: "focusportal-65d7d.firebaseapp.com",
+    databaseURL: "https://focusportal-65d7d.firebaseio.com",
+    storageBucket: "focusportal-65d7d.appspot.com",
+    messagingSenderId: "267982475975"
+  };
+  firebase.initializeApp(config);
+  console.log(defaultApp.name);  // "[DEFAULT]"
 
-      <input type="submit" value="Login" class="btn btn-primary pull-right" />
-      <input type="hidden" name="next" value="{{ next }}" />
-    </form>
-  </div>
-</div>
+  // You can retrieve services via the defaultApp variable...
+  var defaultStorage = defaultApp.storage();
+  var defaultDatabase = defaultApp.database();
+
+  // ... or you can use the equivalent shorthand notation
+  defaultStorage = firebase.storage();
+  defaultDatabase = firebase.database();
+</script>
+
 {% endblock content %}

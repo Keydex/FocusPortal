@@ -1,9 +1,18 @@
+/* General
+================================= */
 input[type="text"]{
 	display: block;
 	margin: 0 auto;
 	border-top: none !important;
 	border-right: none;
 	border-left: none;
-	border-bottom: thick double red;
 	background: transparent;
+}
+.btn-group{
+    width: 100%;
+}
+h1{
+    display: block;
+    text-align: center;
+    margin: 5%;
 }

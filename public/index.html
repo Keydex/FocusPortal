@@ -12,68 +12,107 @@
 	  <li><a href="#">Library</a></li>
 	  <li class="active">Data</li>
 	</ol>
-	<div class="name">Ben's CodingDiary</div>
-	<div id="mongo"></div>
-	<p>Test</p>
-	<div class="input-group">
-	  <form method="post">{% csrf_token %}
-	  <input type="text" class="form-control" placeholder="Title" name="title" aria-describedby="basic-addon2">
-	  <input type="text" class="form-control" placeholder="Code" name="code" aria-describedby="basic-addon2">
-	  <input type="submit" ></input>
-	  <!--<span class="input-group-addon" id="basic-addon2">@example.com</span>-->
-	  </form>
-	</div>
       </div>
+    </div>
+    <div class="container">
+      <h1>Ben's DevDiary</h1>
+
+      <!--
+      <form method="post" enctype="multipart/form-data">{% csrf_token %}
+	<div class="input-group">
+	  <div class="input-group-btn">
+	    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></button>
+	    <ul class="dropdown-menu">
+	      <li><a href="#">Java</a></li>
+	      <li><a href="#">Python</a></li>
+	      <li><a href="#">C</a></li>
+	      <li role="separator" class="divider"></li>
+	      <li><a href="#">Other</a></li>
+	    </ul>
+	  </div>
+	  <input type="text" class="form-control" placeholder="Title" name="title">
+	</div>
+
+	<div class="form-group">
+	  <input placeholder="Type code here!" class="form-control" type="submit" name="code">
+	</div>
+	<button type="submit">Upload</button>
+      </form>
+      -->
+      <form method="post" enctype="multipart/form-data">
+	{% csrf_token %}
+	{{ post.as_p }}
+	<button type="submit" class="save btn btn-default">Save</button>
+      </form>
+
       <div class="dropdown">
 	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 	  Language
 	  <span class="caret"></span>
 	</button>
 	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-	  <li><select name="java">Java</select></li>
-	  <li><select name="c">C++</select></li>
-	  <li><select name="python">Python</select></li>
+	  <li name="java">Java</li>
+	  <li name="c">C</li>
+	  <li name="python">Python</li>
 	</ul>
       </div>
 
-      <div class="dropdown">
-	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-	  Java
-	  <span class="caret"></span>
+      <div class="btn-group">
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  Python <span class="caret"></span>
 	</button>
-	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-	  {% for c in java%}
-	  <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
-	  {% endfor %}
+	<ul class="dropdown-menu">
+	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	    {% for c in java%}
+	    <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
+	    {% endfor %}
+	  </ul>
 	</ul>
       </div>
-      <div class="dropdown">
-	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-	  Python
-	  <span class="caret"></span>
+      <div class="btn-group">
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  Java <span class="caret"></span>
 	</button>
-	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-	  {% for c in python %}
-	  <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
-	  {% endfor %}
-	</ul>
-      </div>
-      <div class="dropdown">
-	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-	  C++
-	  <span class="caret"></span>
-	</button>
-	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-	  {% for c in C %}
-	  <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
-	  {% endfor %}
+	<ul class="dropdown-menu">
+	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	    {% for c in python %}
+	    <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
+	    {% endfor %}
+	  </ul>
 	</ul>
       </div>
 
+      <div class="btn-group">
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  C <span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu">
+	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	    {% for c in C %}
+	    <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
+	    {% endfor %}
+	  </ul>
+	</ul>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="progress">
+	<a><div class="progress-bar progress-bar-success" style="width: 35%">
+	    <span class="sr-only">35% Complete (success)</span>
+	</div></a>
+	<div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
+	  <span class="sr-only">20% Complete (warning)</span>
+	</div>
+	<div class="progress-bar progress-bar-danger" style="width: 10%">
+	  <span class="sr-only">10% Complete (danger)</span>
+	</div>
+      </div>
     </div>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+</div>
+</div>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
 </html>
