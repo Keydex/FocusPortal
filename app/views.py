@@ -7,7 +7,8 @@ from django.utils import timezone
 from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
 from django.contrib.auth import views as auth_views
-
+from django.conf import settings
+from django.contrib.staticfiles.templatetags.staticfiles import static
 
 # Create your views here.
 def index(request):
@@ -17,9 +18,11 @@ def index(request):
         if request.method == 'POST':
                 form = PostForm(request.POST, request.FILES)
                 if form.is_valid():
-                        post = form.save(commit=False)
-                        post.id = 10
+                        post = form.save()
+                        post.author = request.user.username
+                        print request.user.username
                         post.date = timezone.now()
+                        post.url = post.code.url
                         post.save()
                         return redirect("homepage")
         else:

@@ -1,0 +1,1284 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.4.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~MSle0~/data
+
+# Last Substitute Search Pattern:
+~MSle0&server
+
+# 마지막으로 바꾼 문자열:
+$
+
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:q
+:/data
+:wq
+:'<,'>q
+::q
+:w
+:%s/server//g
+:%s/client//g
+:/transp
+:/transparent
+:?color
+:/main
+:set number
+:/split
+:'<,'>%s/trackOfFirst/nextFirst/g
+:/merge
+:?os
+:/os
+:/operator
+:?operator
+:/<
+:/cout
+:/testInsert
+:?insert
+:/next
+:/insert
+:!
+:/traverse
+:/print
+:/trasverse
+:/find
+:/value
+:/Back
+:/testFind1
+:?odd
+:?opp
+:set line
+:/MAX
+:?MAX
+:q!
+:'<,'>
+:?transform
+:/transform
+:?colorPicker
+:/testWa
+:/testW	
+:/water
+:/test
+:/testW
+:/reverse
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+? data
+? @$
+? server
+? client
+? transp
+? transparent
+? color
+? main
+? split
+? merge
+? os
+? operator
+? <
+? cout
+? testInsert
+? insert
+? next
+? traverse
+? print
+? trasverse
+? find
+? value
+? Back
+? testFind1
+? odd
+? opp
+? MAX
+? transform
+? colorPicker
+? testWa
+? testW	
+? water
+? test
+? testW
+? reverse
+? rever
+? draw
+? roomCount
+? allocate
+? clear
+? list_given
+? _copy
+? _clear
+? _clear()
+? change
+? add
+? addpi
+? get
+? height
+? _pixels
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+"0	CHAR	0
+	publish = models.DateField(auto_now=False, auto_now_add=False)
+	
+""1	LINE	0
+	
+"2	LINE	0
+	    
+"3	LINE	0
+		
+"4	LINE	0
+		div.innerHTML = 'Extra stuff';
+"5	CHAR	0
+	e('mongo');
+	
+"6	LINE	0
+		collection.insertMany(
+"7	LINE	0
+		border-right: none;
+"8	LINE	0
+		border-
+"9	CHAR	0
+	var monk = require('monk');
+	var db = monk('localhost:27017/nodetest1');
+	
+"j	CHAR	0
+	jkkk
+"-	CHAR	0
+	urlencodedParser, 
+
+# 파일 마크:
+'0  11  0  ~/project/blog/blog/blog/settings.py
+'1  88  0  ~/project/blog/blog/blog/settings.py
+'2  26  0  ~/project/blog/blog/app/forms.py
+'3  13  0  ~/project/blog/blog/app/models.py
+'4  21  70  ~/project/blog/blog/app/models.py
+'5  33  0  ~/project/blog/blog/app/models.py
+'6  5  0  ~/Desktop/.CS196/search_engine/main/app/models.py
+'7  9  0  ~/Desktop/.CS196/search_engine/main/app/views.py
+'8  24  4  ~/Desktop/.CS196/search_engine/main/app/searchEngine.py
+'9  24  0  ~/project/blog/blog/blog/urls.py
+
+# 점프목록 (새것이 먼저):
+-'  11  0  ~/project/blog/blog/blog/settings.py
+-'  1  0  ~/project/blog/blog/blog/settings.py
+-'  88  0  ~/project/blog/blog/blog/settings.py
+-'  75  0  ~/project/blog/blog/blog/settings.py
+-'  26  0  ~/project/blog/blog/app/forms.py
+-'  1  0  ~/project/blog/blog/app/forms.py
+-'  13  0  ~/project/blog/blog/app/models.py
+-'  1  0  ~/project/blog/blog/app/models.py
+-'  21  70  ~/project/blog/blog/app/models.py
+-'  33  0  ~/project/blog/blog/app/models.py
+-'  5  0  ~/Desktop/.CS196/search_engine/main/app/models.py
+-'  1  0  ~/Desktop/.CS196/search_engine/main/app/models.py
+-'  9  0  ~/Desktop/.CS196/search_engine/main/app/views.py
+-'  1  0  ~/Desktop/.CS196/search_engine/main/app/views.py
+-'  24  4  ~/Desktop/.CS196/search_engine/main/app/searchEngine.py
+-'  1  0  ~/Desktop/.CS196/search_engine/main/app/searchEngine.py
+-'  24  0  ~/project/blog/blog/blog/urls.py
+-'  1  0  ~/project/blog/blog/blog/urls.py
+-'  143  0  ~/project/blog/blog/blog/settings.py
+-'  132  0  ~/project/blog/blog/blog/settings.py
+-'  2  0  ~/project/blog/blog/blog/settings.py
+-'  15  0  ~/project/blog/blog/app/models.py
+-'  1  0  ~/project/blog/blog/models.py
+-'  71  0  ~/project/blog/blog/app/views.py
+-'  1  0  ~/project/blog/blog/app/views.py
+-'  28  0  ~/project/blog/blog/app/models.py
+-'  65  0  ~/project/blog/blog/app/views.py
+-'  78  0  ~/project/blog/blog/app/views.py
+-'  63  0  ~/project/blog/blog/templates/index.html
+-'  1  0  ~/project/blog/blog/templates/index.html
+-'  54  0  ~/project/blog/blog/app/views.py
+-'  64  0  ~/project/blog/blog/templates/index.html
+-'  42  0  ~/project/blog/blog/templates/detail.html
+-'  1  0  ~/project/blog/blog/templates/detail.html
+-'  14  0  ~/project/blog/blog/templates/create.html
+-'  1  0  ~/project/blog/blog/templates/create.html
+-'  34  0  ~/project/blog/blog/app/views.py
+-'  7  0  ~/project/blog/blog/app/forms.py
+-'  25  0  ~/project/blog/blog/app/views.py
+-'  39  0  ~/project/blog/blog/blog/settings.py
+-'  25  0  ~/project/blog/blog/blog/settings.py
+-'  8  0  ~/project/blog/blog/app/urls.py
+-'  1  0  ~/project/blog/blog/app/urls.py
+-'  37  0  ~/project/blog/blog/app/views.py
+-'  5  37  ~/Spring2017/.FocusPortal/app/views.py
+-'  1  0  ~/Spring2017/.FocusPortal/app/views.py
+-'  7  0  ~/project/blog/blog/app/apps.py
+-'  1  0  ~/project/blog/blog/app/apps.py
+-'  49  0  ~/project/blog/blog/blog/settings.py
+-'  12  22  ~/Spring2017/.FocusPortal/app.js
+-'  1  0  ~/Spring2017/.FocusPortal/app.js
+-'  16  11  ~/Spring2017/.FocusPortal/app.js
+-'  7  4  ~/Spring2017/.FocusPortal/app.js
+-'  8  1  ~/Spring2017/.FocusPortal/app.js
+-'  16  30  ~/Spring2017/.FocusPortal/public/index.html
+-'  1  0  ~/Spring2017/.FocusPortal/public/index.html
+-'  10  10  ~/Spring2017/.FocusPortal/app.js
+-'  32  1  ~/Spring2017/.FocusPortal/app.js
+-'  35  2  ~/Spring2017/.FocusPortal/app.js
+-'  34  22  ~/Spring2017/.FocusPortal/app.js
+-'  29  2  ~/Spring2017/.FocusPortal/app.js
+-'  23  0  ~/Spring2017/.FocusPortal/package.json
+-'  1  0  ~/Spring2017/.FocusPortal/package.json
+-'  39  2  ~/Spring2017/.FocusPortal/app.js
+-'  45  0  ~/Spring2017/.FocusPortal/public/index.html
+-'  1  11  ~/Spring2017/.FocusPortal/public/base.css
+-'  7  0  ~/Spring2017/.FocusPortal/public/base.css
+-'  8  23  ~/Spring2017/.FocusPortal/public/base.css
+-'  5  1  ~/Spring2017/.FocusPortal/public/base.css
+-'  3  15  ~/Spring2017/.FocusPortal/public/base.css
+-'  4  39  ~/Spring2017/.FocusPortal/public/index.html
+-'  4  0  ~/Spring2017/.FocusPortal/app.js
+-'  30  0  ~/Spring2017/.FocusPortal/app.js
+-'  66  0  ~/Spring2017/.FocusPortal/node_modules
+-'  11  0  ~/Spring2017/.FocusPortal/app.js
+-'  14  13  ~/Spring2017/.FocusPortal/public/index.html
+-'  40  0  ~/Spring2017/.FocusPortal/app.js
+-'  22  0  ~/Spring2017/.FocusPortal/app.js
+-'  9  0  ~/Spring2017/.FocusPortal/public/index.html
+-'  20  1  ~/Spring2017/.FocusPortal/public/index.html
+-'  19  0  ~/Spring2017/.FocusPortal/public/index.html
+-'  7  1  ~/Spring2017/.FocusPortal/public/index.html
+-'  40  0  ~/Spring2017/.FocusPortal/public/index.html
+-'  3  0  ~/Spring2017/.FocusPortal/package.json
+-'  5  4  ~/Spring2017/.FocusPortal/app.js
+-'  18  0  ~/Spring2017/.FocusPortal/package.json
+-'  2  0  ~/Spring2017/.FocusPortal/README.md
+-'  1  0  ~/Spring2017/.FocusPortal/README.md
+-'  22  0  ~/Spring2017/.FocusPortal/package.json
+-'  19  0  ~/Spring2017/.FocusPortal/app.js
+-'  1  0  /var/log/mongodb/mongod.log
+-'  54  23  ~/Spring2017/.FocusPortal/FocusPortal/README.MD
+-'  1  0  ~/Spring2017/.FocusPortal/FocusPortal/README.MD
+-'  92  0  ~/Spring2017/.FocusPortal/FocusPortal/README.MD
+-'  10  11  ~/Spring2017/.FocusPortal/.gitignore
+-'  11  0  ~/Spring2017/.FocusPortal/.gitignore
+-'  12  0  ~/Spring2017/.FocusPortal/.gitignore
+-'  9  0  ~/Spring2017/.FocusPortal/.gitignore
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/project/blog/blog/blog/settings.py
+	"	11	0
+
+> ~/project/blog/blog/app/forms.py
+	"	26	0
+
+> ~/project/blog/blog/app/models.py
+	"	13	0
+	.	33	0
+	+	33	0
+
+> ~/Desktop/.CS196/search_engine/main/app/models.py
+	"	5	0
+
+> ~/Desktop/.CS196/search_engine/main/app/views.py
+	"	9	0
+
+> ~/Spring2017/.FocusPortal/project/settings.py
+	"	47	0
+	^	58	49
+	.	58	48
+	+	28	19
+	+	40	6
+	+	122	1
+	+	123	0
+	+	124	66
+	+	58	48
+
+> ~/Desktop/.CS196/search_engine/main/app/searchEngine.py
+	"	24	4
+
+> ~/project/blog/blog/blog/urls.py
+	"	24	0
+
+> ~/project/blog/blog/models.py
+	"	1	0
+
+> ~/project/blog/blog/app/views.py
+	"	71	0
+	^	2	0
+
+> ~/project/blog/blog/templates/index.html
+	"	63	0
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
+
+> ~/deb-dev
+	"	1	0
+	^	8	0
+	.	7	31
+	+	9	0
+	+	7	31
+
+> ~/.bashrc
+	"	130	34
+	^	130	35
+	.	130	34
+	+	130	34
+
+> ~/project/blog/blog/templates/detail.html
+	"	42	0
+
+> ~/project/blog/blog/templates/create.html
+	"	14	0
+
+> ~/Spring2017/.FocusPortal/public/index.html
+	"	1	0
+	^	16	31
+	.	3	0
+	+	45	26
+	+	40	6
+	+	46	0
+	+	18	0
+	+	3	82
+	+	40	80
+	+	3	23
+	+	40	23
+	+	40	91
+	+	40	0
+	+	44	0
+	+	42	0
+	+	19	0
+	+	17	6
+	+	19	0
+	+	15	0
+	+	15	1
+	+	16	0
+	+	17	0
+	+	19	0
+	+	7	23
+	+	18	6
+	+	7	0
+	+	19	34
+	+	19	0
+	+	19	0
+	+	18	0
+	+	38	0
+	+	38	0
+	+	9	0
+	+	14	0
+	+	9	0
+	+	13	0
+	+	14	23
+	+	4	39
+	+	14	0
+	+	16	30
+	+	3	0
+
+> ~/Spring2017/.FocusPortal/app/views.py
+	"	6	9
+	^	6	10
+	.	6	9
+	+	7	37
+	+	2	0
+	+	5	28
+	+	6	9
+
+> ~/Spring2017/.FocusPortal/project/urls.py
+	"	24	64
+	^	19	32
+	.	25	0
+	+	23	31
+	+	24	0
+	+	25	0
+	+	24	128
+	+	24	1
+	+	16	40
+	+	19	31
+	+	25	0
+
+> ~/.FocusPortal/project/project/urls.py
+	"	24	64
+	.	25	0
+	+	25	0
+
+> ~/.FocusPortal/project/project/settings.py
+	"	1	0
+
+> ~/.FocusPortal/project/app/views.py
+	"	1	0
+
+> ~/project/blog/blog/app/urls.py
+	"	8	0
+
+> ~/project/blog/blog/app/apps.py
+	"	7	0
+
+> ~/Spring2017/.FocusPortal/app/urls.py
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/Spring2017/.FocusPortal/app/ur
+	"	1	0
+
+> ~/Spring2017/.FocusPortal/app.js
+	"	12	22
+	^	12	23
+	.	12	22
+	+	25	48
+	+	25	8
+	+	39	0
+	+	26	0
+	+	30	0
+	+	40	0
+	+	40	0
+	+	39	0
+	+	39	0
+	+	40	0
+	+	39	0
+	+	39	0
+	+	39	0
+	+	39	47
+	+	39	46
+	+	39	11
+	+	7	0
+	+	11	0
+	+	11	0
+	+	39	1
+	+	39	1
+	+	40	0
+	+	39	0
+	+	8	0
+	+	40	0
+	+	8	19
+	+	8	40
+	+	11	0
+	+	40	0
+	+	39	23
+	+	39	0
+	+	39	0
+	+	39	0
+	+	39	1
+	+	39	0
+	+	39	0
+	+	39	0
+	+	39	0
+	+	39	34
+	+	39	0
+	+	39	93
+	+	39	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	4	28
+	+	8	13
+	+	40	0
+	+	4	0
+	+	5	0
+	+	26	75
+	+	29	0
+	+	30	0
+	+	35	0
+	+	39	0
+	+	39	0
+	+	38	0
+	+	34	17
+	+	35	0
+	+	8	23
+	+	8	24
+	+	11	0
+	+	11	0
+	+	10	17
+	+	11	1
+	+	9	0
+	+	7	5
+	+	8	0
+	+	7	0
+	+	18	1
+	+	17	34
+	+	16	11
+	+	12	22
+
+> ~/Spring2017/.FocusPortal/package.json
+	"	23	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /var/log/mongodb/mongod.log
+	"	1	0
+
+> ~/Spring2017/.FocusPortal/public/base.css
+	"	1	11
+	^	8	24
+	.	8	23
+	+	1	19
+	+	9	0
+	+	3	7
+	+	1	14
+	+	2	15
+	+	3	15
+	+	4	23
+	+	8	15
+	+	4	10
+	+	8	0
+	+	6	19
+	+	7	32
+	+	8	23
+
+> ~/Spring2017/.FocusPortal/README.md
+	"	2	0
+
+> ~/Spring2017/.FocusPortal/FocusPortal/README.MD
+	"	54	23
+
+> ~/Spring2017/.FocusPortal/.gitignore
+	"	10	11
+	.	5	0
+	+	1	0
+	+	5	0
+	+	10	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	4	7
+	+	5	0
+
+> ~/project/twittersentimentanalysis/main/app/urls.py
+	"	1	0
+
+> ~/project/twittersentimentanalysis/main/app/apps.py
+	"	1	0
+
+> ~/project/twittersentimentanalysis/main/app/views.py
+	"	13	0
+
+> ~/Spring2017/.personal-website/project/app/urls.py
+	"	1	0
+
+> ~/Spring2017/.personal-website/project/project/urls.py
+	"	21	0
+
+> ~/Spring2017/.personal-website/project/project/settings.py
+	"	1	0
+
+> ~/search/main.py
+	"	1	0
+
+> ~/search/main.p
+	"	1	0
+
+> ~/search.py
+	"	1	0
+	^	1	0
+
+> ~/list.h
+	"	1	0
+	^	9	18
+	.	24	9
+	+	53	5
+	+	6	20
+	+	7	19
+	+	9	17
+	+	24	9
+
+> ~/Spring2017/.CS225/svn/mp3/unit_tests.cpp
+	"	10	0
+
+> ~/Spring2017/.CS225/svn/mp3/list.cpp
+	"	559	0
+	.	548	0
+	+	373	40
+	+	373	2
+	+	494	22
+	+	496	1
+	+	495	14
+	+	500	36
+	+	499	46
+	+	500	31
+	+	498	33
+	+	499	42
+	+	500	72
+	+	502	1
+	+	502	33
+	+	502	0
+	+	502	0
+	+	502	44
+	+	502	43
+	+	502	0
+	+	499	31
+	+	502	31
+	+	502	1
+	+	495	20
+	+	494	0
+	+	498	44
+	+	498	1
+	+	496	0
+	+	498	0
+	+	502	0
+	+	509	0
+	+	502	0
+	+	498	0
+	+	500	47
+	+	500	23
+	+	500	11
+	+	499	16
+	+	500	15
+	+	499	17
+	+	500	24
+	+	500	5
+	+	500	6
+	+	500	22
+	+	500	24
+	+	500	23
+	+	502	0
+	+	502	0
+	+	502	44
+	+	494	1
+	+	505	0
+	+	503	0
+	+	501	1
+	+	485	0
+	+	494	0
+	+	492	0
+	+	494	1
+	+	508	1
+	+	484	1
+	+	493	1
+	+	484	1
+	+	373	2
+	+	373	1
+	+	373	3
+	+	335	0
+	+	335	0
+	+	373	0
+	+	484	1
+	+	484	1
+	+	494	0
+	+	508	0
+	+	335	1
+	+	335	1
+	+	373	0
+	+	356	2
+	+	352	13
+	+	344	1
+	+	343	20
+	+	348	1
+	+	347	24
+	+	348	0
+	+	349	14
+	+	350	30
+	+	356	2
+	+	356	0
+	+	355	22
+	+	362	2
+	+	371	1
+	+	366	21
+	+	370	20
+	+	372	14
+	+	368	5
+	+	339	0
+	+	335	35
+	+	338	14
+	+	361	17
+	+	339	16
+	+	340	10
+	+	485	0
+	+	335	0
+	+	336	0
+	+	548	32
+	+	548	0
+	t	326	0
+
+> ~/Spring2017/.CS225/svn/mp3/main.cpp
+	"	279	4
+	.	279	0
+	+	63	0
+	+	86	0
+	+	64	0
+	+	63	0
+	+	105	0
+	+	122	0
+	+	126	0
+	+	126	28
+	+	126	2
+	+	144	2
+	+	126	17
+	+	126	22
+	+	126	28
+	+	127	0
+	+	144	0
+	+	153	0
+	+	169	0
+	+	169	0
+	+	150	0
+	+	151	0
+	+	169	0
+	+	168	1
+	+	159	18
+	+	162	37
+	+	163	43
+	+	169	1
+	+	213	1
+	+	169	0
+	+	213	0
+	+	153	1
+	+	167	1
+	+	169	1
+	+	213	1
+	+	153	0
+	+	167	0
+	+	152	1
+	+	167	1
+	+	169	0
+	+	213	0
+	+	239	0
+	+	220	0
+	+	223	35
+	+	220	25
+	+	223	37
+	+	225	19
+	+	224	23
+	+	225	22
+	+	226	1
+	+	233	35
+	+	236	37
+	+	236	44
+	+	239	0
+	+	239	1
+	+	265	1
+	+	233	1
+	+	236	0
+	+	228	0
+	+	227	0
+	+	236	0
+	+	230	0
+	+	234	0
+	+	236	0
+	+	220	1
+	+	239	1
+	+	239	0
+	+	265	0
+	+	220	0
+	+	239	0
+	+	239	1
+	+	265	1
+	+	219	1
+	+	238	1
+	+	239	0
+	+	265	0
+	+	323	0
+	+	323	0
+	+	323	0
+	+	323	0
+	+	323	0
+	+	323	0
+	+	323	30
+	+	323	0
+	+	278	0
+	+	279	1
+	+	323	1
+	+	11	0
+	+	11	0
+	+	12	0
+	+	323	0
+	+	323	0
+	+	323	0
+	+	323	0
+	+	324	0
+	+	279	0
+
+> ~/Spring2017/.CS225/svn_provided/mp3_provided/unit_tests.cpp
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/Spring2017/.CS225/svn_provided/mp3_provided/Makefile
+	"	1	0
+	^	5	25
+	.	5	24
+	+	5	24
+
+> ~/Spring2017/.CS225/svn_provided/mp3_provided/blockpng.cpp
+	"	50	0
+
+> ~/Spring2017/.CS225/svn_provided/mp3/main.cpp
+	"	228	0
+
+> ~/Spring2017/.CS225/svn/mp3/grade_report.txt
+	"	77	0
+
+> ~/Spring2017/.CS225/svn/mp3/grade_report_extra_credit.txt
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/monad/mp3_provided/unit_tests.cpp
+	"	152	0
+
+> ~/Spring2017/.CS225/svn/mp3/partners.txt
+	"	1	0
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/Spring2017/.CS225/svn/mp3/list_given.cpp
+	"	45	0
+	.	42	0
+	+	15	0
+	+	41	0
+	+	41	13
+	+	41	28
+	+	41	0
+	+	41	0
+	+	41	0
+	+	42	0
+
+> ~/Spring2017/.CS225/svn/mp3/list.h
+	"	198	0
+	^	198	0
+	.	198	0
+	+	32	0
+	+	48	0
+	+	196	9
+	+	196	7
+	+	195	3
+	+	197	3
+	+	194	0
+	+	198	0
+
+> ~/Spring2017/.CS225/svn/mp3/list_given.h
+	"	116	0
+
+> ~/Spring2017/.CS225/svn/mp3/list_given.
+	"	1	0
+
+> ~/Spring2017/.tensorflow/computationalGraph.py
+	"	7	0
+	^	6	0
+	.	5	43
+	+	3	4
+	+	2	4
+	+	3	22
+	+	10	0
+	+	5	60
+	+	10	0
+	+	4	0
+	+	10	0
+	+	7	0
+	+	9	0
+	+	2	23
+	+	3	22
+	+	5	43
+
+> ~/Spring2017/.CS225/svn/mp3/grade_report
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/monad/output.txt
+	"	3	0
+	.	81	0
+	+	80	64
+	+	81	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/skipList.cpp
+	"	230	0
+	.	230	0
+	+	79	4
+	+	79	5
+	+	76	0
+	+	56	0
+	+	59	52
+	+	61	5
+	+	152	1
+	+	54	0
+	+	56	16
+	+	59	16
+	+	221	0
+	+	240	19
+	+	59	13
+	+	69	13
+	+	151	17
+	+	211	100
+	+	242	0
+	+	225	30
+	+	205	39
+	+	227	15
+	+	205	18
+	+	227	19
+	+	205	34
+	+	227	35
+	+	153	43
+	+	205	13
+	+	227	13
+	+	208	38
+	+	229	38
+	+	208	38
+	+	211	78
+	+	206	0
+	+	208	0
+	+	228	0
+	+	229	0
+	+	193	24
+	+	221	24
+	+	208	88
+	+	229	0
+	+	79	0
+	+	79	2
+	+	79	0
+	+	83	0
+	+	82	0
+	+	82	0
+	+	83	0
+	+	83	0
+	+	84	0
+	+	79	2
+	+	79	0
+	+	74	0
+	+	106	0
+	+	112	0
+	+	66	45
+	+	209	0
+	+	66	0
+	+	229	0
+	+	66	23
+	+	67	0
+	+	71	0
+	+	70	0
+	+	153	0
+	+	153	0
+	+	153	1
+	+	153	0
+	+	152	0
+	+	87	90
+	+	87	94
+	+	87	0
+	+	152	0
+	+	152	0
+	+	152	21
+	+	152	0
+	+	87	0
+	+	152	54
+	+	205	24
+	+	221	0
+	+	230	0
+	+	205	0
+	+	205	35
+	+	230	30
+	+	205	19
+	+	153	0
+	+	153	0
+	+	71	0
+	+	59	0
+	+	87	0
+	+	193	0
+	+	205	0
+	+	221	0
+	+	230	0
+	+	207	38
+	+	207	33
+	+	207	1
+	+	227	1
+	+	228	5
+	+	242	1
+	+	228	0
+	+	227	0
+	+	230	0
+
+> ~/Spring2017/.CS225/svn_provided/lab_gdb2_provided/unit_tests.cpp
+	"	198	0
+	.	167	0
+	+	167	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/main.cpp
+	"	190	0
+	^	176	15
+	.	176	14
+	+	158	16
+	+	158	63
+	+	157	1
+	+	158	0
+	+	15	0
+	+	160	0
+	+	187	0
+	+	187	0
+	+	185	40
+	+	161	23
+	+	183	17
+	+	174	35
+	+	182	34
+	+	175	21
+	+	178	22
+	+	180	0
+	+	183	0
+	+	179	0
+	+	177	0
+	+	177	0
+	+	174	0
+	+	177	0
+	+	176	14
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/skipList_given.cpp
+	"	195	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/skipList.h
+	"	1	0
+	.	24	0
+	+	23	39
+	+	23	61
+	+	24	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/skipList_-
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/skipNode.h
+	"	83	5
+
+> ~/Spring2017/.CS225/svn_provided/lab_gdb2_provided/skipList_given.cpp
+	"	404	0
+
+> ~/Spring2017/.CS225/svn_provided/lab_gdb2_provided/skipNode.cpp
+	"	54	0
+
+> ~/Spring2017/.CS225/svn_provided/lab_gdb2_provided/skipList.h
+	"	268	0
+
+> ~/Spring2017/.CS225/svn/monad/outpupt
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/gdb-examples/switch.cpp
+	"	31	0
+	.	5	0
+	+	5	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/gdb-examples/swap.cpp
+	"	24	3
+	^	22	5
+	.	24	3
+	+	6	0
+	+	23	4
+	+	24	3
+	+	23	0
+	+	24	3
+	+	26	30
+	+	22	4
+	+	24	3
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/gdb-examples/recurse.cpp
+	"	13	11
+	^	13	11
+	.	13	11
+	+	7	0
+	+	13	18
+	+	16	11
+	+	13	11
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/gdb-examples/playground.cpp
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/gdb-examples/loop.cpp
+	"	9	0
+	^	26	6
+	.	26	5
+	+	8	0
+	+	26	5
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/gdb-examples/list.cpp
+	"	78	0
+	.	61	0
+	+	57	18
+	+	56	23
+	+	59	0
+	+	54	20
+	+	55	2
+	+	52	19
+	+	56	0
+	+	52	12
+	+	57	0
+	+	58	0
+	+	58	0
+	+	61	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/list.c
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/list.d
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/skipNode.cpp
+	"	24	0
+
+> ~/Spring2017/.CS225/svn/lab_gdb2/Makefile
+	"	19	0
+
+> /etc/rc.local
+	"	13	41
+	^	13	42
+	.	13	41
+	+	13	41
+
+> /etc/hosts
+	"	25	30
+	^	25	31
+	.	25	13
+	+	26	0
+	+	27	0
+	+	42	0
+	+	41	13
+	+	10	0
+	+	11	33
+	+	25	13
+
+> /etc/host
+	"	1	0
+
+> ~/.PlayOnLinux/install
+	"	1	0
+	^	146	27
+	.	146	0
+	+	147	0
+	+	146	0
+
+> ~/playonlinux_script
+	"	1	0
+	^	146	27
+	.	146	0
+	+	1	0
+	+	1	21
+	+	1	5
+	+	1	11
+	+	146	0
+
+> ~/IdeaProjects/JavaDoc/Zork/stylesheet.css
+	"	574	0
+
+> ~/day1
+	"	6	16
+	^	5	62
+	.	6	15
+	+	4	8
+	+	2	89
+	+	5	100
+	+	3	77
+	+	5	62
+	+	6	15
+
+> ~/Spring2017/.CS225/svn_provided/mp2/png.cpp
+	"	201	0
+
+> ~/Spring2017/.CS225/svn/mp2/image.cpp
+	"	9	0
+	^	56	28
+	.	29	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	15	27
+	+	16	1
+	+	25	2
+	+	26	0
+	+	16	0
+	+	13	24
+	+	14	6
+	+	15	6
+	+	14	20
+	+	13	19
+	+	14	7
+	+	13	19
+	+	14	1
+	+	13	19
+	+	14	22
+	+	15	8
+	+	14	1
+	+	15	1
+	+	13	19
+	+	15	27
+	+	14	17
+	+	13	10
+	+	4	19
+	+	9	29
+	+	5	0
+	+	2	18
+	+	9	65
+	+	10	38
+	+	11	33
+	+	8	0
+	+	56	27
+	+	23	0
+	+	29	0
+
+> ~/Spring2017/.CS225/svn/mp2/image.h
+	"	2	0
+	.	13	0
+	+	4	15
+	+	5	0
+	+	12	0
+	+	8	0
+	+	13	0
+
+> ~/Spring2017/.CS225/svn_provided/mp2/image.h
+	"	1	0
+
+> ~/Spring2017/.CS225/svn/mp2/Makefile
+	"	23	0
+	^	39	34
+	.	32	20
+	+	1	17
+	+	3	11
+	+	20	0
+	+	11	0
+	+	11	47
+	+	25	13
+	+	23	8
+	+	25	0
+	+	1	27
+	+	2	19
+	+	1	9
+	+	18	13
+	+	4	44
+	+	18	39
+	+	11	29
+	+	11	0
+	+	17	20
+	+	18	13
+	+	3	26
+	+	30	28
+	+	39	33
+	+	32	20
+
+> ~/Spring2017/.CS225/svn_provided/mp2/testimage.cpp
+	"	31	0
+
+> ~/Spring2017/.CS225/svn_provided/mp2/testscene.cpp
+	"	55	0
+
+> ~/Spring2017/.CS225/svn_provided/lab_inheritance/circle.cpp
+	"	20	0
+
+> ~/Spring2017/.CS225/svn/lab_inheritance/circle.cpp
+	"	81	0
+	^	18	102
+	.	18	102
+	+	21	1
+	+	18	100
+	+	21	0
+	+	18	101
+	+	18	102
+
+> ~/Spring2017/.CS225/svn_provided/lab_inheritance/circle.h
+	"	67	0
+
+> ~/Spring2017/.CS225/svn_provided/lab_inheritance/test_constructor.cpp
+	"	29	0

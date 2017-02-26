@@ -1,0 +1,20 @@
+| Commands    | Descriptions                     |
+|-------------+----------------------------------|
+| M-up        | Move a subtree up                |
+| M-down      | Move a subtree down              |
+| S-M-Right   | Demote a subtree                 |
+| S-M-Left    | Promote a subtree                |
+| M-Right     | Demote a headline                |
+| M-Left      | Promote a headline               |
+| Tab         | Collapse or expand a subtree     |
+| S-Tab       | Collapse or expand everything    |
+| C-c C-l     | Org-Insert-Link                  |
+| C-c C-d     | Set deadline                     |
+| C-c C-s     | Set schedule                     |
+| C-c C-c     | Tag                              |
+| C-c C-c     | Mark checkbox                    |
+| S-up/S-down | Priority                         |
+
+[[http://jaderholm.com/screencasts.html][Org-mode screencast]]
+[[http://orgmode.org/manual/index.html][Carsten Dominik]]
+[[http://orgmode.org/worg/org-tutorials/][Tutorial]]
