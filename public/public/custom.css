@@ -16,9 +16,15 @@ textarea:focus, input:focus{
 }
 
 .initial {
-  margin-top: 20%;
+  margin-top: 30%;
 }
 
 .pad5 {
-  margin-top: 5%;
+  position: absolute;
+  top:50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
 }
