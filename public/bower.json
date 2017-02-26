@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "description": "Code Diary Initial Development",
+  "main": "index.js",
+  "authors": [
+    "Anthony Pham"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/Keydex/FocusPortal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebaseui": "^1.0.0"
+  }
+}

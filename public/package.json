@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "angular": "^1.6.1",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "firebaseui": "^1.0.0"
   }
 }
