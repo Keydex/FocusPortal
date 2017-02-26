@@ -32,6 +32,12 @@ body{
 }
 .ad3 {
     background: url(heron.jpg) no-repeat center center fixed;
+    text-shadow: 2px 2px #000000;
+}
+body{
+  /*font-family: 'Roboto Slab', serif;*/
+  text-shadow: 2px 2px #000000;
+  color: white;
 }
 
 .text-area{
@@ -40,21 +46,38 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px #000000;
 }
 
 h1{
   font-size: 300%;
+  color: white;
 }
 
 textarea:focus, input:focus{
-    outline: none;
-    color: white;
+  outline: none;
+  color: white;
+
+#titleDiv{
+  position: absolute;
+  margin-bottom: -25%
 }
 
-initial {
-  position: center;
+.blackBTN {
+  color: #000000;
 }
+
+.pad5 {
+  position: fixed;
+  top:50%;
+  margin: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
 
 /*.pad5 {
   margin-top: 5%;

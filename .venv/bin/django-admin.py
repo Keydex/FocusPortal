@@ -1,4 +1,4 @@
-#!/home/newben/Spring2017/.FocusPortal/.venv/bin/python
+#!/home/keydex/FocusPortal/.venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
@@ -21,6 +22,8 @@
 <!-- Personal CSS -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="custom.css">
+<link rel="stylesheet" type="text/css" href="animations.css">
+
 
 <title>Coding Diary</title>
 </head>
@@ -38,19 +41,31 @@
     </div>
   </div>
 
-  <div class = "text-area">
-    <div class="initial">
-      <center><h1 class="display-1" id="Title"></h1></center>
-    </div>
-    <div class="center pad5">
-      <input style="font-size:40px"type="text"></input>
+  <div>
+    <div id="titleDiv" class="initial" style="position:absolute; top:50px;">
+      <div class="container text-area">
+        <div class="row">
+          <div class="center pad5">
+            <center><h1 id="titleText" class="display-1"></h1></center>
+          </div>
+        </div>
+        <div class="center pad5">
+          <input style="font-size:40px"type="text"></input>
+          <button onclick="animateFade()" class="blackBTN" style="margin: 0 auto; display: block;">Click me!</button>
+        </div>
+      </div>
     </div>
   </div>
 </body>
 
-<script type = "text/javascript">
-  var userName = "My";
-  document.getElementById("Title").innerHTML = userName + '\ Code Diary';
+<script>
+  var userName = "Something";
+  document.getElementById("titleText").innerHTML = userName + '\'s Code Diary';
+
+  function animateFade(){
+  javascript:document.getElementById('titleDiv').className += ' animate';
+  javascript:document.getElementById('titleText').className += ' animateFade';
+  }
 </script>
 
 </html>
