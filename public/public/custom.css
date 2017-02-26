@@ -5,26 +5,33 @@ input[type="text"] {
     background: transparent;
     margin: 0 auto;
     text-align: center;
-    text-shadow: 2px 2px #ff0000;
-}
-
-#bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  background-attachment: scroll;
-  background-position: 50% 50%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: "";
-  z-index: 0;
+    text-shadow: 2px 2px black;
 }
 
 body{
   font-family: 'Roboto Slab', serif;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px black;
+}
+
+#myCarousel {
+    width: 100%;
+}
+.carousel-inner .item {
+    width: 100%;
+    height: 950px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ad1 {
+    background: url(angler.jpg) no-repeat center center fixed;
+}
+.ad2 {
+    background: url(chamarel.jpg) no-repeat center center fixed;
+}
+.ad3 {
+    background: url(heron.jpg) no-repeat center center fixed;
 }
 
 .text-area{
