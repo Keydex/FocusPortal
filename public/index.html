@@ -26,7 +26,7 @@
       </div>
       <div class="dropdown">
 	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-	  Dropdown
+	  Language
 	  <span class="caret"></span>
 	</button>
 	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -41,23 +41,33 @@
 	  Java
 	  <span class="caret"></span>
 	</button>
+	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	  {% for c in java%}
+	  <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
+	  {% endfor %}
+	</ul>
       </div>
+      <div class="dropdown">
+	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	  Python
+	  <span class="caret"></span>
+	</button>
 	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 	  {% for c in python %}
 	  <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
 	  {% endfor %}
 	</ul>
-	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-	  {% for c in java %}
-	  <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
-	  {% endfor %}
-	</ul>
+      </div>
+      <div class="dropdown">
+	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	  C++
+	  <span class="caret"></span>
+	</button>
 	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 	  {% for c in C %}
 	  <li><a href='{{ c.site }}'>{{ c.title }}</a></li>
 	  {% endfor %}
 	</ul>
-
       </div>
 
     </div>
