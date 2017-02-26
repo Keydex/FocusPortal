@@ -39,12 +39,12 @@
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {opacity 0;}
-	100% { top = -50px;}
+	100% {top = -50px;}  /* 100% { top = -50px;} */
 
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   {opacity 0;}
-	100% {top = -50px;}
+    0%   {opacity 0;}  
+	100% {top = -50px;}  /* 100% {top = -50px;} */
 }
